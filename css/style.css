@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Updock&family=Poppins:wght@300;400;700&display=swap');
+/* Paleta de colores */
+:root {
+    --primary-color: #E8A0BF;
+    --secondary-color: #B799FF;
+    --accent-color: #FFD1DA;
+    --text-color: #5A5A5A;
+    --background-color: #FFF5F7;
+    --golden: #C19A6B;
+}
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.bg-white {
+    background-color: #ffffff !important;
+}
+
+.text-pink {
+    color: #e83e8c !important;
+}
+
+.btn-pink {
+    background-color: #e83e8c;
+    border-color: #e83e8c;
+    color: #ffffff;
+}
+
+.btn-pink:hover {
+    background-color: #d6336c;
+    border-color: #d6336c;
+}
+
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+.text-pink, h6 {
+    color: var(--primary-color);
+}
+.icon-spacing {
+    margin-right: 10px; /* Ajusta el valor según lo que necesites */
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand img {
+    transition: transform 0.3s ease-in-out;
+}
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+.navbar-nav .nav-link {
+    color: var(--primary-color);
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+.navbar-nav .nav-link:hover {
+    color: var(--secondary-color);
+}
+
+/* Botón Reservar */
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+    background: var(--golden);
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
