@@ -49,6 +49,10 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
 }
+.titulo-ag{
+    font-family: "Updock", cursive;
+    color: var(--primary-color);
+}
 .text-pink, h6 {
     color: var(--primary-color);
 }
@@ -74,6 +78,7 @@ body {
 .navbar-nav .nav-link:hover {
     color: var(--secondary-color);
 }
+
 
 /* Botón Reservar */
 .btn-primary {
