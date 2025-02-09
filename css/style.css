@@ -94,8 +94,20 @@ body {
     color: white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
+/* Horario */
+.bg-horario {
+    background: url(../assets/image/vecteezy_purple-violet-wave-abstract-background-design_51785898.png) no-repeat center center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative; 
+}
 
-
+/* Precio */
+.bg-pricing {
+    background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../assets/image/LogoAG.png), no-repeat center center;
+    background-size: cover;
+  }
 /* Footer */
 footer {
     background-color: var(--primary-color);
@@ -104,3 +116,13 @@ footer {
     padding: 15px;
     font-size: 14px;
 }
+
+
+
+
+
+
+
+
+
+
