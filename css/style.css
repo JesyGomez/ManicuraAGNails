@@ -53,11 +53,16 @@ body {
     font-family: "Updock", cursive;
     color: var(--primary-color);
 }
+.titulo-promociones{
+    font-family:'Times New Roman', Times, serif;
+    color: var(--primary-color);
+}
+
 .text-pink, h6 {
     color: var(--primary-color);
 }
 .icon-spacing {
-    margin-right: 10px; /* Ajusta el valor según lo que necesites */
+    margin-right: 10px; 
 }
 
 /* Navbar */
@@ -94,20 +99,42 @@ body {
     color: white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
+
 /* Horario */
 .bg-horario {
     background: url(../assets/image/vecteezy_purple-violet-wave-abstract-background-design_51785898.png) no-repeat center center;
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    position: relative; 
+    width: 100%;
+    height: auto;
+    padding: 50px 0; 
+    z-index: 1; 
 }
-
 /* Precio */
 .bg-pricing {
     background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../assets/image/LogoAG.png), no-repeat center center;
     background-size: cover;
   }
+
+/* Promociones */
+.promociones {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 50%, var(--primary-color) 100%);
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+    margin-top: 50px; /* Margen superior para separar de Horarios */
+    z-index: 2; /* Asegura que esté por encima de otras secciones */
+}
+
+ .promocionestitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: aliceblue;
+    font-weight: 500;
+  }
+
+  
 /* Footer */
 footer {
     background-color: var(--primary-color);
